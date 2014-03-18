@@ -2,11 +2,7 @@
 #define _ADAFRUIT_GFX_H
 #include "application.h"
 #define ARDUINO_H
-#include <inttypes.h>
-//#include "Print.h"
-#include <stdint.h>
-#include <stddef.h>
-#include <stdlib.h>
+
 #define swap(a, b) { int16_t t = a; a = b; b = t; }
 
 class Adafruit_GFX : public Print {
